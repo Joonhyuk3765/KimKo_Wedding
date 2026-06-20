@@ -39,7 +39,7 @@
   ];
 
   // 사진이 하나도 없을 때 보여줄 placeholder 개수
-  const PLACEHOLDER_COUNT = 8;
+  const PLACEHOLDER_COUNT = 16;
 
   const photoGrid = document.getElementById('photoGrid');
 
