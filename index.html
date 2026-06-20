@@ -177,8 +177,22 @@
     <div class="section__line" aria-hidden="true"></div>
 
     <div class="location__map">
-      <img src="images/map-1.jpg" alt="노블발렌티 대치 약도" loading="lazy" />
+      <a href="https://map.kakao.com/?urlX=514492&urlY=1112181&urlLevel=3&map_type=TYPE_MAP&map_hybrid=false" target="_blank" rel="noopener" class="location__kakao" aria-label="카카오맵에서 노블발렌티 대치 위치 보기">
+        <img src="https://staticmap.kakao.com/map/mapservice?FORMAT=PNG&SCALE=2.5&MX=514492&MY=1112180&S=0&IW=504&IH=310&LANG=0&COORDSTM=WCONGNAMUL&logo=kakao_logo" alt="노블발렌티 대치 지도" loading="lazy" />
+        <span class="location__kakao-hint">지도를 누르면 카카오맵에서 크게 볼 수 있습니다</span>
+      </a>
     </div>
+
+    <!-- 손으로 그린 약도(셔틀버스 위치 등 상세) -->
+    <details class="location__sketch">
+      <summary>
+        <span>약도 이미지 보기</span>
+        <span class="account__chevron" aria-hidden="true">＋</span>
+      </summary>
+      <div class="location__sketch-img">
+        <img src="images/map-1.jpg" alt="노블발렌티 대치 약도 (셔틀버스 승차장 안내)" loading="lazy" />
+      </div>
+    </details>
 
     <div class="location__info">
       <h3 class="location__venue">노블발렌티 대치</h3>
