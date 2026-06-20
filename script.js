@@ -21,10 +21,10 @@
      ------------------------------------------------------------------ */
   const GALLERY_PHOTOS = [
     'gallery/KimKo_2.jpg',
+    'gallery/ko1.jpg',
     'gallery/Kim1.jpg',
-    'gallery/Ko1.jpg',
-    // 'gallery/photo4.JPG',
-    // 'gallery/photo5.JPG',
+    'gallery/Kim2.jpg',
+    'gallery/Kim3.jpg',
     // 'gallery/photo6.JPG',
     // 'gallery/photo7.JPG',
     // 'gallery/photo8.JPG',
