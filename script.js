@@ -20,9 +20,9 @@
           좌우 버튼 / 스와이프 / 키보드로 무한 반복하며 크게 볼 수 있습니다.
      ------------------------------------------------------------------ */
   const GALLERY_PHOTOS = [
-    'gallery/KimKo_2.JPG',
+    'gallery/KimKo_2.jpg',
     'gallery/Kim1.JPG',
-    'gallery/Ko1.JPG',
+    'gallery/Ko1.jpg',
     // 'gallery/photo4.JPG',
     // 'gallery/photo5.JPG',
     // 'gallery/photo6.JPG',
