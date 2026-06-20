@@ -21,7 +21,7 @@
      ------------------------------------------------------------------ */
   const GALLERY_PHOTOS = [
     'gallery/KimKo_2.jpg',
-    'gallery/Kim1.JPG',
+    'gallery/Kim1.jpg',
     'gallery/Ko1.jpg',
     // 'gallery/photo4.JPG',
     // 'gallery/photo5.JPG',
