@@ -31,10 +31,10 @@
     'gallery/Ko3.jpg',
     'gallery/Kim4.jpg',
     'gallery/Kim5.jpg',
-    // 'gallery/photo12.JPG',
-    // 'gallery/photo13.JPG',
-    // 'gallery/photo14.JPG',
-    // 'gallery/photo15.JPG',
+    'gallery/KimKo_5.jpg',
+    'gallery/Ko4.jpg',
+    'gallery/KimKo_6.jpg',
+    'gallery/Ko5.jpg',
     // 'gallery/photo16.JPG',
   ];
 
