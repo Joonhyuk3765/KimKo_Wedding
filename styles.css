@@ -134,6 +134,18 @@ a {
   font-size: 48px;
 }
 
+/* 표지 메인 사진 */
+.cover__main-photo {
+  margin: 28px calc(-1 * var(--pad)) 32px;
+}
+
+.cover__main-photo img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
 .cover__korean {
   font-family: var(--font-serif);
   font-weight: 300;
