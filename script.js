@@ -644,4 +644,3 @@ function initKakaoMap() {
   initVisitorCounter();                        // 방문자 수 표시
 initKakaoMap();                               // 오시는 길 인터랙티브 지도
 })();
-})();
