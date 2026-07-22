@@ -13,17 +13,17 @@
 }
 
 :root {
-  /* Colors – 따뜻한 아이보리 베이스 + 깊은 그린 액센트 */
-  --bg: #f5f1ea;
-  --bg-alt: #ebe5da;
-  --paper: #fbf8f3;
+/* Colors – 클린한 화이트 베이스 + 깊은 그린 액센트 */
+  --bg: #fafafa;
+  --bg-alt: #f2f2f2;
+  --paper: #ffffff;
   --ink: #2b2b27;
   --ink-soft: #5c5a52;
   --ink-muted: #8a8678;
   --accent: #4a5d4a;
   --accent-light: #7a8a72;
   --gold: #a08a5a;
-  --line: #d8d0c0;
+  --line: #e3e3e3;
   --sun: #c44a3a;
 
   /* Type */
@@ -111,7 +111,7 @@ a {
 .cover__names {
   font-family: var(--font-display);
   font-weight: 300;
-  font-size: 56px;
+  font-size: 24px;
   line-height: 1.1;
   color: var(--ink);
   margin-bottom: 18px;
@@ -120,9 +120,9 @@ a {
 
 .cover__name {
   display: inline-block;
-  font-family: var(--font-serif);
+  font-family: 'Gowun Batang', var(--font-serif);
   font-weight: 400;
-  font-size: 44px;
+  font-size: 22px;
 }
 
 .cover__amp {
@@ -131,7 +131,7 @@ a {
   color: var(--accent);
   font-weight: 300;
   margin: 0 8px;
-  font-size: 48px;
+  font-size: 24px;
 }
 
 /* 표지 메인 사진 */
@@ -1055,9 +1055,9 @@ a {
     --pad: 22px;
   }
 
-  .cover__names { font-size: 48px; }
-  .cover__name { font-size: 38px; }
-  .cover__amp { font-size: 42px; }
+  .cover__names { font-size: 22px; }
+  .cover__name { font-size: 20px; }
+  .cover__amp { font-size: 22px; }
   .section__title { font-size: 19px; }
 }
 
