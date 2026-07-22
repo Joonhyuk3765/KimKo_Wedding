@@ -242,10 +242,8 @@
     <div class="section__line" aria-hidden="true"></div>
 
     <div class="location__map">
-      <a href="https://map.kakao.com/?urlX=514492&urlY=1112181&urlLevel=3&map_type=TYPE_MAP&map_hybrid=false" target="_blank" rel="noopener" class="location__kakao" aria-label="카카오맵에서 노블발렌티 대치 위치 보기">
-        <img src="https://staticmap.kakao.com/map/mapservice?FORMAT=PNG&SCALE=5&MX=514492&MY=1112180&S=0&IW=1008&IH=840&LANG=0&COORDSTM=WCONGNAMUL&logo=kakao_logo" alt="노블발렌티 대치 지도" loading="lazy" />
-        <span class="location__kakao-hint"></span>
-      </a>
+      <div id="kakaoMap" class="location__map-canvas" aria-label="노블발렌티 대치 위치 지도 - 드래그로 이동, 손가락으로 확대·축소할 수 있습니다"></div>
+      <a href="https://map.kakao.com/?urlX=514492&urlY=1112181&urlLevel=3&map_type=TYPE_MAP&map_hybrid=false" target="_blank" rel="noopener" class="location__kakao-hint" aria-label="카카오맵 앱에서 크게 보기"></a>
     </div>
 
     <div class="location__info">
@@ -405,6 +403,8 @@
   <!-- GoatCounter 방문자 집계 스크립트
        ※ MYCODE를 본인의 GoatCounter 코드로 교체하세요 (script.js 상단에도 한 곳 더 있음) -->
   <script data-goatcounter="https://kim-ko.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=YOUR_KAKAO_JS_KEY&libraries=services&autoload=false"></script>
 
   <script src="script.js"></script>
 </body>
