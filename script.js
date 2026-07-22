@@ -563,10 +563,10 @@
      ------------------------------------------------------------------ */
   var GOATCOUNTER_CODE = 'kim-ko'; // ← 본인의 GoatCounter 코드로 교체
 
-  function initVisitorCounter() {
+   function initVisitorCounter() {
     var wrap = document.getElementById('footerVisitors');
     if (!wrap) return;
-    if (!GOATCOUNTER_CODE || GOATCOUNTER_CODE === 'kim-ko' || !window.fetch) {
+    if (!GOATCOUNTER_CODE || !window.fetch) {
       wrap.style.display = 'none';
       return;
     }
