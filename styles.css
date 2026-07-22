@@ -769,6 +769,7 @@ a {
 }
 
 .location__map {
+  position: relative;
   margin: 0 var(--pad) 16px;
   background: #fff;
   border: 1px solid var(--line);
@@ -776,10 +777,12 @@ a {
   overflow: hidden;
 }
 
-.location__map img {
+.location__map-canvas {
   width: 100%;
-  display: block;
+  aspect-ratio: 6 / 5;
+  background: var(--bg-alt);
 }
+
 
 .location__info {
   padding: 0 var(--pad);
@@ -1070,11 +1073,34 @@ a {
 }
 
 
-/* 카카오맵 (정적 지도) */
-.location__kakao {
-  display: block;
-  position: relative;
+/* 카카오맵 (JS SDK, 인터랙티브 지도) */
+
+.location__kakao-hint {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  z-index: 5;
+  padding: 5px 10px;
+  background: rgba(251, 248, 243, 0.92);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 11px;
+  color: var(--ink-soft);
+  letter-spacing: 0.02em;
+  text-decoration: none;
   -webkit-tap-highlight-color: transparent;
+}
+.location__kakao-hint::after {
+  content: '카카오맵에서 보기 ↗';
+}
+
+.location__kakao-hint--solo {
+  position: static;
+  display: block;
+  width: fit-content;
+  margin: 40px auto;
+  padding: 10px 18px;
+  font-size: 13px;
 }
 
 /* 정적 지도의 중심 좌표 = 예식장이므로, 중앙에 핀을 얹어 위치 표시 */
