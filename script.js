@@ -566,7 +566,7 @@
   function initVisitorCounter() {
     var wrap = document.getElementById('footerVisitors');
     if (!wrap) return;
-    if (!GOATCOUNTER_CODE || GOATCOUNTER_CODE === 'MYCODE' || !window.fetch) {
+    if (!GOATCOUNTER_CODE || GOATCOUNTER_CODE === 'kim-ko' || !window.fetch) {
       wrap.style.display = 'none';
       return;
     }
