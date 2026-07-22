@@ -593,10 +593,55 @@
     });
   }
 
+
+
+
+  /* ------------------------------------------------------------------
+     Map
+     ------------------------------------------------------------------ */
+function initKakaoMap() {
+  var hint = document.querySelector('.location__kakao-hint');
+
+  if (typeof kakao === 'undefined' || !kakao.maps) {
+    if (hint) hint.classList.add('location__kakao-hint--solo');
+    return;
+  }
+
+  kakao.maps.load(function () {
+    var container = document.getElementById('kakaoMap');
+    if (!container) return;
+
+    var fallbackCenter = new kakao.maps.LatLng(37.4979, 127.0612);
+
+    var map = new kakao.maps.Map(container, {
+      center: fallbackCenter,
+      level: 3
+    });
+    map.addControl(new kakao.maps.ZoomControl(), kakao.maps.ControlPosition.RIGHT);
+
+    function placeMarker(position) {
+      map.setCenter(position);
+      new kakao.maps.Marker({ position: position, map: map });
+    }
+
+    var geocoder = new kakao.maps.services.Geocoder();
+    geocoder.addressSearch('서울 강남구 영동대로 325', function (result, status) {
+      if (status === kakao.maps.services.Status.OK && result[0]) {
+        placeMarker(new kakao.maps.LatLng(result[0].y, result[0].x));
+      } else {
+        placeMarker(fallbackCenter);
+      }
+    });
+  });
+}
+
+   
   /* ------------------------------------------------------------------
      초기화
      ------------------------------------------------------------------ */
   setLang(detectLang());                       // 언어 적용 + 갤러리 생성 + D-day 표시
   setInterval(updateCountdown, 1000 * 60 * 60); // 1시간마다 D-day 갱신
   initVisitorCounter();                        // 방문자 수 표시
+initKakaoMap();                               // 오시는 길 인터랙티브 지도
+})();
 })();
