@@ -561,7 +561,7 @@
      ※ 코드를 아직 안 바꿨으면 카운터 영역은 자동으로 숨겨집니다.
      ※ GoatCounter 응답은 최대 4시간 캐시되므로 숫자가 실시간은 아닙니다.
      ------------------------------------------------------------------ */
-  var GOATCOUNTER_CODE = 'MYCODE'; // ← 본인의 GoatCounter 코드로 교체
+  var GOATCOUNTER_CODE = 'kim-ko'; // ← 본인의 GoatCounter 코드로 교체
 
   function initVisitorCounter() {
     var wrap = document.getElementById('footerVisitors');
