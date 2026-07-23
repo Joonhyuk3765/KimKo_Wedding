@@ -3,6 +3,8 @@
    모바일 최적화 / 한국 청첩장 우아한 감성
    ========================================================================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 /* ---------- Reset & Base ---------- */
 *,
 *::before,
@@ -145,6 +147,32 @@ a {
   object-fit: cover;
   display: block;
 }
+
+/* 👇 여기서부터 새로 추가하는 타이틀 스타일 및 애니메이션 설정 */
+.cover__text-title {
+  position: absolute;
+  top: 30%; /* 위아래 위치 조절 */
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Great Vibes', cursive;
+  font-size: 3.8rem; /* 모바일 화면폭에 맞게 5rem에서 조금 줄였습니다. 확인 후 조절하세요! */
+  color: #e3c770; 
+  white-space: nowrap;
+  margin: 0;
+  z-index: 10;
+  
+  overflow: hidden;
+  width: 0; 
+  animation: revealText 2.5s ease-out forwards; /* 2.5초 동안 스르륵 나타남 */
+  animation-delay: 0.5s;
+}
+
+@keyframes revealText {
+  to {
+    width: 100%; 
+  }
+}
+/* 👆 추가 끝 */
 
 .cover__korean {
   font-family: var(--font-serif);
