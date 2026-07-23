@@ -236,26 +236,51 @@
           좌우 버튼 / 스와이프 / 키보드로 무한 반복하며 크게 볼 수 있습니다.
      ------------------------------------------------------------------ */
   const GALLERY_PHOTOS = [
-    'gallery/KimKo_2.jpg',
-    'gallery/Ko1.jpg',
-    'gallery/Kim1.jpg',
-    'gallery/KimKo_3.jpg',
-    'gallery/Kim2.jpg',
-    'gallery/Ko2.jpg',
-    'gallery/Kim3.jpg',
-    'gallery/KimKo_4.jpg',
-    'gallery/Ko3.jpg',
-    'gallery/Kim4.jpg',
-    'gallery/Kim5.jpg',
-    'gallery/KimKo_5.jpg',
-    'gallery/Ko4.jpg',
-    'gallery/KimKo_6.jpg',
-    'gallery/Ko5.jpg',
-    // 'gallery/photo16.JPG',
+    'gallery/1_KimKo.jpg',
+    'gallery/2_Ko.jpg',
+    'gallery/3_Kim.jpg',
+    'gallery/4_Ko.jpg',
+    'gallery/5_KimKo.jpg',
+    'gallery/6_KimKo.jpg',
+    'gallery/7_KimKo.jpg',
+    'gallery/8_Ko.jpg',
+    'gallery/9_KimKo.jpg',
+    'gallery/10_Ko.jpg',
+    'gallery/11_KimKo.jpg',
+    'gallery/12_Kim.jpg',
+    'gallery/13_KimKo.jpg',
+    'gallery/14_KimKo.jpg',
+    'gallery/15_KimKo.jpg',
+    'gallery/16_Ko.jpg',
+    'gallery/17_Ko.jpg',
+    'gallery/18_KimKo.jpg',
+    'gallery/19_KimKo.jpg',
+    'gallery/20_Ko.jpg',
+    'gallery/21_Ko.jpg',
+    'gallery/22_KimKo.jpg',
+    'gallery/23_KimKo.jpg',
+    'gallery/24_Ko.jpg',
+    'gallery/25_KimKo.jpg',
+    'gallery/26_KimKo.jpg',
+    'gallery/27_KimKo.jpg',
+    'gallery/28_Ko.jpg',
+    'gallery/29_KimKo.jpg',
+    'gallery/30_Kim.jpg',
+    'gallery/31_KimKo.jpg',
+    'gallery/32_KimKo.jpg',
+    'gallery/33_Kim.jpg',
+    'gallery/34_Ko.jpg',
+    'gallery/35_KimKo.jpg',
+    'gallery/36_KimKo.jpg',
+    'gallery/37_KimKo.jpg',
+    'gallery/38_KimKo.jpg',
+    'gallery/39_Kim.jpg',
+    'gallery/40_Ko.jpg',
+     
   ];
 
   // 사진이 하나도 없을 때 보여줄 placeholder 개수
-  const PLACEHOLDER_COUNT = 16;
+  const PLACEHOLDER_COUNT = 40;
 
   const photoGrid = document.getElementById('photoGrid');
 
