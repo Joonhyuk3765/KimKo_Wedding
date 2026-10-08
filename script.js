@@ -118,6 +118,7 @@
     bank_kb: { ko: '국민은행', en: 'KB Kookmin Bank' },
     bank_shinhan: { ko: '신한은행', en: 'Shinhan Bank' },
     bank_kakao: { ko: '카카오뱅크', en: 'KakaoBank' },
+    bank_k: { ko: '케이뱅크', en: 'K-Bank' },
     bank_hana: { ko: '하나은행', en: 'Hana Bank' },
     bank_nh: { ko: '농협은행', en: 'NH NongHyup Bank' },
     btn_copy: { ko: '복사', en: 'Copy' },
